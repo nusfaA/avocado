@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SmartDonor" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Crust\\SmartDonor_Runtime\\SmartDonorService\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Crust\\SmartDonor_Runtime\\SmartDonorService\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="" value="Data Source=tcp:smartdonor.database.windows.net,1433;Initial Catalog=sd_donor;User ID=avocardo;Password=WeR4Avocar" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Crust\\SmartDonor_Runtime\\SmartDonorService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
